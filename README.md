@@ -25,7 +25,7 @@ Follow these steps to set up and run the AI Chess Coach on your local machine.
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/xadrez.git
+    git clone https://github.com/adalbertobrant/chess.git
     cd xadrez
     ```
 
@@ -88,4 +88,4 @@ Feel free to fork the repository, make improvements, and submit pull requests.
 
 ## License
 
-[Specify your license here, e.g., MIT License]
+[MIT License]
