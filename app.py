@@ -95,7 +95,7 @@ if st.button("Analisar Partida"):
                 user_prompt = f"Joguei de {player_color.lower()}\n{pgn_input}"
                 full_prompt = f'''{system_prompt}\n\n### Entrada do usuário\n{user_prompt}'''
 
-                model = genai.GenerativeModel('gemini-1.5-pro')
+                model = genai.GenerativeModel('models/gemini-2.5-pro')
                 response = model.generate_content(full_prompt)
 
                 st.markdown(response.text)
